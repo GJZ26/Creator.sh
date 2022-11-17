@@ -22,16 +22,19 @@ Este script solo funciona con proyectos con **Springboot**.
 4. Descarga el script [**Creator.sh**](#) 
    
 5. Mueve tu script a la carpeta donde se encuentra tu función main, usualmente en **/src/main/java/.../.../AlgoApplication.java**
+
 ![directories](img/../img-doc/directories.png)
 
 6. Abre tu **Terminal** y dirígete al directorio dónde se localiza el script. Al hacer `ls -la` deberá verse lo siguiente: ![list files](img-doc/list.png)
 
 7. Ejecuta `./Creator.sh` en tu terminal y da el nombre a tu entidad:
+
 ![firsView](img-doc/firstView.png)
 
 **Importante:** Usar solo una palabara para el nombre de la aplicación, no usar números, carácteres especiales o letras espaciales. El Script transforma la entrada a minúscula para la creacion de las carpetas y solo capitaliza la primera letra para las clases.
 
 8. Una vez finalizado el script, te creará una estructura similar a la siguiente 
+
 ![structured](img-doc/created.png).
    
 En caso de algún error, checa nuestra secciones de [errores comunes](#errores).
@@ -119,6 +122,7 @@ Recuerda que este una herramienta de desarrollo personal, por lo tanto, es demas
 
 ### Permiso denegado
 Output: `bash: ./Creator.sh: Permission denied` 
+
 ![permissionDenied](img-doc/error-permission.png)
 
 **Solucion**: 
@@ -126,6 +130,7 @@ Verifique que el archivo [**Creator.sh**](#) tenga los permisos necesarios, para
 `ls -la`
 
 Y si el output es similar al siguiente
+
 ![notpermissiongiven](img-doc/notPermmision.png)
 
 Ejecute 
@@ -134,13 +139,16 @@ Ejecute
 Y vuelva a verificar con `ls -la`
 
 y el output deberá verse de la siguiente forma:
+
 ![permissionGiven](img-doc/permmisiongived.png)
 
 ### No se ha podido encontrar el directorio Java
 output: `No se ha podido encontrar el directorio Java`
+
 ![NojavaFound](img-doc/java%20no%20found.png)
 
 **Solución:** Comprueba que el archivo [**Creator.sh**](#) está a la altura del ***project*Application.java**.
 
 El arbol debe verse algo así:
+
 ![correct Directories](img-doc/directories.png)
