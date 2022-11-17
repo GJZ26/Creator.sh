@@ -25,7 +25,9 @@ Este script solo funciona con proyectos con **Springboot**.
 
 ![directories](img/../img-doc/directories.png)
 
-6. Abre tu **Terminal** y dirígete al directorio dónde se localiza el script. Al hacer `ls -la` deberá verse lo siguiente: ![list files](img-doc/list.png)
+6. Abre tu **Terminal** y dirígete al directorio dónde se localiza el script. Al hacer `ls -la` deberá verse lo siguiente: 
+
+![list files](img-doc/list.png)
 
 7. Ejecuta `./Creator.sh` en tu terminal y da el nombre a tu entidad:
 
